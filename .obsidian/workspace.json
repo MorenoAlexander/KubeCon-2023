@@ -15,9 +15,9 @@
               "state": {
                 "file": "PresenationMap.canvas",
                 "viewState": {
-                  "x": -382,
-                  "y": 391,
-                  "zoom": 0
+                  "x": -583.5,
+                  "y": 27,
+                  "zoom": -0.7881178810745586
                 }
               }
             }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Playlists.md",
+                "file": "PresenationMap.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Playlists.md",
+                "file": "PresenationMap.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Playlists.md"
+                "file": "PresenationMap.canvas"
               }
             }
           }
@@ -150,11 +150,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "411c2f7993928a48",
+  "active": "53ffef0f0de4feee",
   "lastOpenFiles": [
+    "Wasm+eBPF.md",
+    "Service Mesh.md",
+    "PresenationMap.canvas",
+    "assets/jaeger.jpg",
+    "assets/jaeger.jpg.crdownload",
+    "assets/jaeger-logo.png",
+    "assets/jaeger-logo.png.crdownload",
+    "assets",
+    "New folder",
+    "Platform Development.md",
     "Playlists.md",
     "[Welcome.md",
-    "PresenationMap.canvas",
     "Observability.md"
   ]
 }

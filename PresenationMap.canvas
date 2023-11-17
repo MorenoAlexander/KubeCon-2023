@@ -1,17 +1,20 @@
 {
 	"nodes":[
-		{"id":"130d980ba96762fc","type":"text","text":"# Platform Development\n\n- crossplane.io\n- Backstage\n- \n","x":62,"y":0,"width":411,"height":451},
 		{"id":"85b1f89bb9e71886","type":"text","text":"# Tools\n\n- Rancher Desktop\n\t- Open source alternative to Docker desktop\n\t- Focused on Kubernetes\n\t- \n- mirrord\n\t- Tool for developing locally with your kubernetes environment\n- wasm-worker-server\n\t- For developing serverless applications using a number of languages\n\t- Any supported language file or .wasm file becomes an endpoint\n\t- Serves static content\n- modsurfer\n\t- DevSecOps tool to analyze WebAssembly binaries\n- WasmEdge\n\t- lightweight WebAssembly runtime for cloud native/edge","x":62,"y":-880,"width":358,"height":740,"color":"3"},
 		{"id":"81e45f1809181eba","type":"text","text":"# KubeCon\n\n- ## Tools\n\n- ## Platform Development\n\n- ## Service Mesh\n\n- ## Observability\n\n- ## Wasm, wasm + eBPF\n\n\n","x":-620,"y":-540,"width":448,"height":634},
-		{"id":"e7fc94eef7fa29ed","type":"text","text":"# Service Mesh\n\n- Dedicated infrastructure layer  for facilitating service-service communications between a ","x":-1401,"y":32,"width":250,"height":248},
-		{"id":"bb26799b4f4dd4fa","type":"file","file":"Observability.md","x":-1460,"y":-703,"width":580,"height":603},
-		{"id":"1fcb6e35b236590c","x":-562,"y":280,"width":333,"height":654,"type":"file","file":"Playlists.md"}
+		{"id":"1fcb6e35b236590c","x":-562,"y":280,"width":333,"height":654,"type":"file","file":"Playlists.md"},
+		{"id":"678937ec23b2bb92","x":-1640,"y":-40,"width":420,"height":560,"type":"file","file":"Service Mesh.md"},
+		{"id":"bb26799b4f4dd4fa","type":"file","file":"Observability.md","x":-1640,"y":-700,"width":580,"height":603},
+		{"id":"89b0298fa85de791","x":-1249,"y":607,"width":378,"height":327,"type":"file","file":"Wasm+eBPF.md"},
+		{"id":"8cf089c9790de502","x":62,"y":40,"width":411,"height":451,"type":"file","file":"Platform Development.md"},
+		{"id":"33cf12742c0d6007","x":-1240,"y":-680,"width":160,"height":160,"type":"file","file":"assets/jaeger.jpg"}
 	],
 	"edges":[
 		{"id":"b8238d72c4b93391","fromNode":"81e45f1809181eba","fromSide":"right","toNode":"85b1f89bb9e71886","toSide":"left"},
-		{"id":"d327815b1c91f57c","fromNode":"81e45f1809181eba","fromSide":"right","toNode":"130d980ba96762fc","toSide":"left"},
+		{"id":"d327815b1c91f57c","fromNode":"81e45f1809181eba","fromSide":"right","toNode":"8cf089c9790de502","toSide":"left"},
 		{"id":"b984186ab844434f","fromNode":"81e45f1809181eba","fromSide":"left","toNode":"bb26799b4f4dd4fa","toSide":"right","fromEnd":"arrow"},
-		{"id":"fd2b854748931717","fromNode":"81e45f1809181eba","fromSide":"left","toNode":"e7fc94eef7fa29ed","toSide":"right"},
-		{"id":"19ecc4ef7f1a7e60","fromNode":"81e45f1809181eba","fromSide":"bottom","toNode":"1fcb6e35b236590c","toSide":"top"}
+		{"id":"fd2b854748931717","fromNode":"81e45f1809181eba","fromSide":"left","toNode":"678937ec23b2bb92","toSide":"right"},
+		{"id":"19ecc4ef7f1a7e60","fromNode":"81e45f1809181eba","fromSide":"bottom","toNode":"1fcb6e35b236590c","toSide":"top"},
+		{"id":"c0fc841f2b395dfd","fromNode":"81e45f1809181eba","fromSide":"left","toNode":"89b0298fa85de791","toSide":"right"}
 	]
 }
